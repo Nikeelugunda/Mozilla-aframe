@@ -1,0 +1,19 @@
+# Mozilla-aframe
+Mozilla A frame 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, World! • A-Frame</title>
+    <meta name="description" content="Hello, World! • A-Frame">
+    <script src="aframe-v0.3.2.js"></script>
+  </head>
+  <body>
+    <a-scene>
+	    <a-box color="#6173F4" width="4" height="10" depth="2"
+         position="-10 2 -5" rotation="0 0 45" scale="2 0.5 3"></a-box>
+        <a-camera></a-camera>
+      </a-entity>
+	</a-scene>
+  </body>
+</html>
